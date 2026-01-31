@@ -4,12 +4,12 @@
 **HTTPS (recommended for most users):**
 ```bash
 git clone https://github.com/florykhan/ml-hackathon.git
-cd house-price-ml-v2
+cd ml-hackathon
 ```
 **SSH (for users who have SSH keys configured):**
 ```bash
 git clone git@github.com:florykhan/ml-hackathon.git
-cd house-price-ml-v2
+cd ml-hackathon
 ```
 
 ### 2️⃣ Create and activate a virtual environment
