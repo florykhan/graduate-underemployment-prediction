@@ -12,3 +12,14 @@ __pycache__/
 
 # OS junk
 .DS_Store
+catboost_info/
+
+# ML artifacts
+catboost_info/
+submissions/feature_importance_report.csv
+
+# ML artifacts
+catboost_info/
+submissions/feature_importance_report.csv
+__pycache__/
+*.pyc
