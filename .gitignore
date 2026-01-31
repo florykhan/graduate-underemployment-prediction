@@ -12,3 +12,6 @@ __pycache__/
 
 # OS junk
 .DS_Store
+
+# Model artifacts (reproduced by train.py)
+data/processed/*.pkl
