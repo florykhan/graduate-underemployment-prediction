@@ -15,3 +15,8 @@ __pycache__/
 
 # Model artifacts (reproduced by train.py)
 data/processed/*.pkl
+
+# Generated outputs
+figures/
+submissions/
+slides_export/
