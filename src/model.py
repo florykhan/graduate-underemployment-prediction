@@ -1,6 +1,6 @@
 """
 Model module: CatBoost classifier for overqualification prediction.
-Exposes: build_model(...) -> CatBoost classifier instance.
+Exposes: build_model(...) -> CatBoost classifier instance
 """
 from catboost import CatBoostClassifier
 

@@ -1,6 +1,6 @@
 """
 Preprocessing module for the NGS hiring / overqualification dataset.
-Cleans raw data: handle special codes (6, 9, 99 = missing/refused), normalize mixed types.
+Cleans raw data: handle special codes (6, 9, 99 = missing/refused), normalize mixed types
 Exposes: clean(df) -> cleaned DataFrame
 """
 import numpy as np

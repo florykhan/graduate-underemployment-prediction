@@ -1,5 +1,5 @@
 """
-Prediction pipeline: load CatBoost model and artifacts, predict on test.csv, write submission CSV.
+Prediction pipeline: load CatBoost model and artifacts, predict on test.csv, write submission CSV
 """
 from pathlib import Path
 

@@ -1,5 +1,5 @@
 """
-Training pipeline: preprocess, feature engineering, CatBoost training, validation, and artifact saving.
+Training pipeline: preprocess, feature engineering, CatBoost training, validation, and artifact saving
 1) Train on train.csv with optional validation split
 2) Tune / validate using stratified K-fold and accuracy
 3) Retrain on full train.csv

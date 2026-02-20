@@ -1,7 +1,7 @@
 """
 Feature engineering for overqualification prediction.
 Adds derived features and prepares feature set for CatBoost (handles categoricals natively).
-Exposes: add_features(df) -> DataFrame with engineered features; get_feature_columns() for list of names.
+Exposes: add_features(df) -> DataFrame with engineered features; get_feature_columns() for list of names
 """
 import pandas as pd
 import numpy as np

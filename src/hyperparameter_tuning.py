@@ -1,6 +1,6 @@
 """
 Hyperparameter tuning for CatBoost: grid or random search over key parameters.
-Used for leaderboard-oriented iteration (e.g. depth, learning_rate, l2_leaf_reg).
+Used for leaderboard-oriented iteration (e.g. depth, learning_rate, l2_leaf_reg)
 """
 import numpy as np
 import pandas as pd
