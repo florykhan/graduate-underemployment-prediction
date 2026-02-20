@@ -206,3 +206,15 @@ MIT License, feel free to use and modify with attribution. See the [`LICENSE`](L
 **Ilian Khankhalaev**  
 _BSc Computing Science, Simon Fraser University_  
 📍 Vancouver, BC  |  [florykhan@gmail.com](mailto:florykhan@gmail.com)  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
+
+**Nikolay Deinego**  
+_BSc Computing Science, Simon Fraser University_  
+📍 Vancouver, BC  | [GitHub](https://github.com/Deinick)  |  [LinkedIn](https://www.linkedin.com/in/nikolay-deinego/)
+
+**Anna Cherkashina**
+_BSc Data Science, Simon Fraser University_  
+📍 Vancouver, BC  | [GitHub](https://github.com/Anna05072005)  |  [LinkedIn](https://www.linkedin.com/in/anna-cherkashina-467059293/)
+
+**Arina Veprikova**  
+_BSc Data Science, Simon Fraser University_  
+📍 Vancouver, BC  |  [GitHub](https://github.com/areenve)  |  [LinkedIn](https://www.linkedin.com/in/arina-veprikova-a97526366/)
