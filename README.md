@@ -37,36 +37,40 @@ The solution achieved **0.75174** accuracy on the Public leaderboard and **0.705
 graduate-underemployment-prediction/
 │
 ├── data/
-│   └── raw/                    # Unmodified input data (train.csv, test.csv)
+│   ├── processed/             # Processed/cached data (optional); not in Git
+│   └── raw/
+│       ├── train.csv          # Training set (id, features, overqualified)
+│       └── test.csv           # Test set (id, features; no target)
 │
-├── models/                     # Saved model artifacts (model.cbm, artifacts.pkl)
+├── models/                    # Saved model artifacts (model.cbm, artifacts.pkl); not in Git
 │
-├── notebooks/                   # Full development workflow
-│   ├── 01_exploration.ipynb              # EDA, NGS feature structure, target and correlations
+├── notebooks/
+│   ├── 01_exploration.ipynb                        # EDA, NGS feature structure, target and correlations
 │   ├── 02_preprocessing_feature_engineering.ipynb  # Cleaning and categorical encoding
-│   ├── 03_catboost_training_tuning.ipynb # Training, CV, hyperparameter tuning
+│   ├── 03_catboost_training_tuning.ipynb          # Training, CV, hyperparameter tuning
 │   ├── 04_evaluation_interpretability.ipynb        # Metrics, feature importance, SHAP
-│   └── 05_pipeline_demo.ipynb             # End-to-end pipeline demonstration
+│   └── 05_pipeline_demo.ipynb                      # End-to-end pipeline demonstration
 │
-├── submissions/                # Generated submission CSV (id, overqualified)
+├── submissions/               # Generated submission CSVs (id, overqualified)
+│   └── submission.csv         # Default output from python3 -m src.predict
 │
-├── src/                        # Modular ML pipeline
+├── src/
 │   ├── __init__.py
-│   ├── config.py               # Paths, target/id columns, validation settings
-│   ├── data.py                 # Load train/test, split X/y, train/val split
-│   ├── preprocess.py           # NGS cleaning and categorical normalization
-│   ├── features.py             # Categorical feature preparation for CatBoost
-│   ├── model.py                # CatBoost classifier builder
-│   ├── evaluate.py             # Stratified K-fold CV and accuracy
+│   ├── config.py             # Paths, target/id columns, validation settings
+│   ├── data.py               # Load train/test, split X/y, train/val split
+│   ├── evaluate.py           # Stratified K-fold CV and accuracy
+│   ├── features.py           # Categorical feature preparation for CatBoost
 │   ├── hyperparameter_tuning.py # Grid search for CatBoost params
-│   ├── train.py                # End-to-end training pipeline
-│   └── predict.py              # Load model, predict on test, write submission
+│   ├── model.py              # CatBoost classifier builder
+│   ├── preprocess.py         # NGS cleaning and categorical normalization
+│   ├── predict.py            # Load model, predict on test, write submission
+│   └── train.py              # End-to-end training pipeline
 │
-├── .gitignore
-├── LICENSE
-├── README.md
+├── .gitignore                  # Git ignore rules (venv, models/*, cache, etc.)
+├── LICENSE                     # MIT license
+├── README.md                   # Project overview and usage
 ├── report.md                   # Detailed technical write-up
-└── requirements.txt
+└── requirements.txt            # Python dependencies
 ```
 
 > 🗒️ **Note:**  
