@@ -172,7 +172,7 @@ The tuned CatBoost model placed the solution very close to the top-performing te
 
 ## 📄 Full Technical Report
 
-The complete technical write-up — including pipeline design, preprocessing and feature engineering, CatBoost training and tuning, validation strategy, and interpretability — is in [`report.md`](report.md). This document is intended for reviewers who want the full methodology behind the pipeline and results.
+The complete technical write-up, including pipeline design, preprocessing and feature engineering, CatBoost training and tuning, validation strategy, and interpretability, is in [`report.md`](report.md). This document is intended for reviewers who want the full methodology behind the pipeline and results.
 
 ---
 
@@ -197,7 +197,7 @@ The complete technical write-up — including pipeline design, preprocessing and
 
 ## 🧾 License
 
-MIT License; feel free to use and modify with attribution. See the [`LICENSE`](LICENSE) file for full details.
+MIT License, feel free to use and modify with attribution. See the [`LICENSE`](LICENSE) file for full details.
 
 ---
 
