@@ -74,7 +74,7 @@ graduate-underemployment-prediction/
 ```
 
 > 🗒️ **Note:**  
-> The `data/raw/` directory should contain `train.csv` and `test.csv`. The `models/` directory is where the trained CatBoost model and artifacts are saved after running `python3 -m src.train`. Processed data is not stored on disk; all transformations are applied in memory during training and prediction.
+> The `data/raw/` directory should contain `train.csv` and `test.csv`. The `models/` directory is where the trained CatBoost model and artifacts are saved after running `python3 -m src.train` — **`models/` is not tracked in Git** (it is in `.gitignore`), so you need to run the training pipeline locally to generate the model. Processed data is not stored on disk; all transformations are applied in memory during training and prediction.
 
 ---
 
