@@ -1,6 +1,6 @@
 """
 Configuration for the ML hackathon pipeline.
-Paths, model settings, and constants.
+Paths, model settings, and constantsx
 """
 from pathlib import Path
 
