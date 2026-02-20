@@ -1,6 +1,6 @@
 """
 Evaluation module: stratified K-fold cross-validation with accuracy (and optional F1).
-Uses CatBoost with early stopping on each fold
+Uses CatBoost with early stopping on each fold.
 """
 import numpy as np
 import pandas as pd
