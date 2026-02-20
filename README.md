@@ -48,11 +48,6 @@ graduate-underemployment-prediction/
 │   ├── 04_evaluation_interpretability.ipynb        # Metrics, feature importance, SHAP
 │   └── 05_pipeline_demo.ipynb             # End-to-end pipeline demonstration
 │
-├── reports/
-│   ├── metrics/
-│   ├── plots/
-│   └── report.md               # Detailed technical write-up
-│
 ├── submissions/                # Generated submission CSV (id, overqualified)
 │
 ├── src/                        # Modular ML pipeline
@@ -70,11 +65,12 @@ graduate-underemployment-prediction/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+├── report.md                   # Detailed technical write-up
 └── requirements.txt
 ```
 
 > 🗒️ **Note:**  
-> The `data/raw/` directory should contain `train.csv` and `test.csv`. The `models/` directory is where the trained CatBoost model and artifacts are saved after running `python3 -m src.train` — **`models/` is not tracked in Git** (it is in `.gitignore`), so you need to run the training pipeline locally to generate the model. Processed data is not stored on disk; all transformations are applied in memory during training and prediction.
+> The `data/raw/` directory should contain `train.csv` and `test.csv`. The `models/` directory is where the trained CatBoost model and artifacts are saved after running `python3 -m src.train`, **`models/` is not tracked in Git** (it is in `.gitignore`), so you need to run the training pipeline locally to generate the model. Processed data is not stored on disk; all transformations are applied in memory during training and prediction.
 
 ---
 
@@ -166,13 +162,13 @@ Recommended order:
 
 The tuned CatBoost model placed the solution very close to the top-performing teams and demonstrated strong generalization on the private hold-out set. Validation and cross-validation accuracy (e.g. ~0.67–0.75 depending on split and hyperparameters) are used during development; the leaderboard metrics above reflect the official hackathon evaluation.
 
-➡️ For methodology, preprocessing details, model choices, and full discussion, see: [`reports/report.md`](reports/report.md).
+➡️ For methodology, preprocessing details, model choices, and full discussion, see: [`report.md`](report.md).
 
 ---
 
 ## 📄 Full Technical Report
 
-The complete technical write-up — including pipeline design, preprocessing and feature engineering, CatBoost training and tuning, validation strategy, and interpretability — is in [`reports/report.md`](reports/report.md). This document is intended for reviewers who want the full methodology behind the pipeline and results.
+The complete technical write-up — including pipeline design, preprocessing and feature engineering, CatBoost training and tuning, validation strategy, and interpretability — is in [`report.md`](report.md). This document is intended for reviewers who want the full methodology behind the pipeline and results.
 
 ---
 
