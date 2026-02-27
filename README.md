@@ -17,6 +17,9 @@ The goal of this project is to:
 
 The solution achieved **0.75174** accuracy on the Public leaderboard and **0.70511** on the Private leaderboard, placing it very close to the top-performing teams and demonstrating strong generalization on unseen data.
 
+![EDA and feature exploration](./submissions/exploration%20heatmap.png)
+_Exploratory analysis: correlation and feature relationships in the NGS hiring dataset_
+
 ---
 
 ## ✨ Key Features
